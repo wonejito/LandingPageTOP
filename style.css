@@ -1,35 +1,20 @@
 body {
     background-color: bisque;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
+    margin: 0;
 }
 
-
-.bomnito {
-    display: flex;
-    flex-direction: column;
+li {
+    list-style-type: none;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 ul {
-    list-style-type: none;
+    display: flex;
+    gap: 8px;
+    justify-content: space-between;
+    
+}
+
+.primera-parte {
+    display: flex;
+    margin-left: 36px;
 }
