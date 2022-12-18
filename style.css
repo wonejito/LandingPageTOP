@@ -1,0 +1,35 @@
+body {
+    background-color: bisque;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.bomnito {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ul {
+    list-style-type: none;
+}
