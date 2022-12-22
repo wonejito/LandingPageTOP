@@ -24,3 +24,35 @@ ul {
 .nemu {
     margin-right: auto;
 }
+
+.bloque-mayor-uno {
+    border: solid red 8px; /*eliminar despues*/
+    display: flex;
+    width: 100%;
+    height: 450px;
+}
+
+.bloque-uno {
+    flex: 1 1 0;
+    border: solid red 8px; /*eliminar despues*/
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 38px;
+}
+
+.bloque-dos {
+    flex: 1 1 0;
+    border: solid red 8px; /*eliminar despues*/
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+/*solo de prueba*/
+img {
+    aspect-ratio: 16 / 9;
+    width: 75%;
+    border: solid salmon 2px;
+}
+
+
