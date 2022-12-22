@@ -7,6 +7,7 @@
 body {
     background-color: bisque;
     margin: 0;
+    min-height: 100vh;
 }
 
 li {
@@ -33,16 +34,18 @@ ul {
 }
 
 .bloque-uno {
-    flex: 1 1 0;
-    border: solid red 8px; /*eliminar despues*/
+    flex: 1 0 0;
+    border: solid grey 8px; /*eliminar despues*/
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    margin: 38px;
+    margin: 32px;
+    justify-content: flex-start;
+    gap: 0;
 }
 
 .bloque-dos {
-    flex: 1 1 0;
+    flex: 1 0 0;
     border: solid red 8px; /*eliminar despues*/
     display: flex;
     justify-content: flex-start;
@@ -55,4 +58,14 @@ img {
     border: solid salmon 2px;
 }
 
-
+button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 8px;
+    align-self: center;
+  }
