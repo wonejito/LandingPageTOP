@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: bisque;
+    background-color: grey;
     margin: 0;
     min-height: 100vh;
 }
@@ -24,6 +24,8 @@ ul {
 
 .nemu {
     margin-right: auto;
+    font-size: 24px;
+    color: #f9faf8;
 }
 
 .bloque-mayor-uno {
@@ -31,6 +33,7 @@ ul {
     display: flex;
     width: 100%;
     height: 450px;
+    background-color: #1f2937;
 }
 
 .bloque-uno {
@@ -39,9 +42,19 @@ ul {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    margin: 32px;
+    margin: 16px;
     justify-content: flex-start;
-    gap: 0;
+}
+
+.bloque-uno h1 {
+    font-size: 48px;
+    font-weight: 800;
+    color: #f9faf8;
+}
+
+.bloque-uno p {
+    color: #e5e7eb;
+    font-size: 18px;
 }
 
 .bloque-dos {
@@ -59,7 +72,7 @@ img {
 }
 
 button {
-    background-color: #4CAF50; /* Green */
+    background-color: #3882f6; /* azulito */
     border: none;
     color: white;
     padding: 15px 32px;
@@ -68,4 +81,13 @@ button {
     font-size: 16px;
     border-radius: 8px;
     align-self: center;
+    font-weight: bolder;
   }
+
+/*
+  footer {
+    background-color: #1f2937;
+  }
+
+*/
+
