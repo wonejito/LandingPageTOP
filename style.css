@@ -109,10 +109,17 @@ button {
     /*background-color: aqua; */
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    gap: 34px;
-    
+    gap: 36px;
 }
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    margin-top: 50px;
+}
+
 
 /*
   footer {
