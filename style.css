@@ -73,7 +73,7 @@ img {
 
 button {
   background-color: #3882f6; /* azulito */
-  border: none;
+  border: 2px solid black;
   color: white;
   padding: 15px 32px;
   text-align: center;
@@ -126,26 +126,49 @@ button {
   height: 450px;
   justify-content: center;
   align-items: center;
-  background-color: #e5e7eb;
+  background-color: #a8adb8;
 }
 
 .frase-completa {
-  display: flex;
-  width: 600px;
-  height: 450px;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  border: 2px solid brown;
+  height: 350px;
+  aspect-ratio: 16 / 9;
 }
+
 .frase {
+  text-align: center;
   font-size: 36px;
-  font-style: italic;
   color: #1f2937;
+  font-style: italic;
 }
 
 .autor {
+  text-align: right;
+  margin-right: 48px;
   font-weight: bolder;
+  font-size: 26px;
+}
+
+.bloque-mayor-cuatro {
+  display: flex;
+  width: 100%;
+  height: 450px;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+
+.bloque-azul {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  border: 3px solid salmon;
+  background-color: #3882f6;
+  color: white;
+}
+
+.call-to-action {
+  border: 4px solid black;
+  font-size: 36px;
 }
 
 /*
