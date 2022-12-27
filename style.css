@@ -1,151 +1,156 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
 
 * {
-    font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 body {
-    background-color: grey;
-    margin: 0;
-    min-height: 100vh;
+  background-color: grey;
+  margin: 0;
+  min-height: 100vh;
 }
 
 li {
-    list-style-type: none;
+  list-style-type: none;
 }
 
 ul {
-    display: flex;
-    justify-content: flex-start;
-    gap: 8px;
-    margin-right: 8px;
-    margin-left: 8px;
+  display: flex;
+  justify-content: flex-start;
+  gap: 8px;
+  margin-right: 8px;
+  margin-left: 8px;
 }
 
 .nemu {
-    margin-right: auto;
-    font-size: 24px;
-    color: #f9faf8;
+  margin-right: auto;
+  font-size: 24px;
+  color: #f9faf8;
 }
 
 .bloque-mayor-uno {
-    border: solid red 8px; /*eliminar despues*/
-    display: flex;
-    width: 100%;
-    height: 450px;
-    background-color: #1f2937;
+  border: solid red 8px; /*eliminar despues*/
+  display: flex;
+  width: 100%;
+  height: 450px;
+  background-color: #1f2937;
 }
 
 .bloque-uno {
-    flex: 1 0 0;
-    border: solid grey 8px; /*eliminar despues*/
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    margin: 16px;
-    justify-content: flex-start;
+  flex: 1 0 0;
+  border: solid grey 8px; /*eliminar despues*/
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 16px;
+  justify-content: flex-start;
 }
 
 .bloque-uno h1 {
-    font-size: 48px;
-    font-weight: 800;
-    color: #f9faf8;
+  font-size: 48px;
+  font-weight: 800;
+  color: #f9faf8;
 }
 
 .bloque-uno p {
-    color: #e5e7eb;
-    font-size: 18px;
+  color: #e5e7eb;
+  font-size: 18px;
 }
 
 .bloque-dos {
-    flex: 1 0 0;
-    border: solid red 8px; /*eliminar despues*/
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
+  flex: 1 0 0;
+  border: solid red 8px; /*eliminar despues*/
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
 }
 /*solo de prueba*/
 img {
-    aspect-ratio: 16 / 9;
-    width: 75%;
-    border: solid salmon 2px;
+  aspect-ratio: 16 / 9;
+  width: 75%;
+  border: solid salmon 2px;
 }
 
 button {
-    background-color: #3882f6; /* azulito */
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    font-size: 16px;
-    border-radius: 8px;
-    align-self: center;
-    font-weight: bolder;
-  }
-
+  background-color: #3882f6; /* azulito */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 8px;
+  align-self: center;
+  font-weight: bolder;
+}
 
 .bloque-mayor-dos {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    border: solid red 8px; /*eliminar despues*/
-    width: 100%;
-    height: 450px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border: solid red 8px; /*eliminar despues*/
+  width: 100%;
+  height: 450px;
 }
 
 .bloque-mayor-dos .title {
-    padding-top: 8px;
-    font-size: 36px;
-    font-weight: 900;
-    color: #1f2937;
+  padding-top: 8px;
+  font-size: 36px;
+  font-weight: 900;
+  color: #1f2937;
 }
 
 .bloque-mayor-dos img {
-    width: 100px;
-    height: 100px;
+  width: 100px;
+  height: 100px;
 }
 
 .bloques-informativos {
-    /*background-color: aqua; */
-    display: flex;
-    flex-direction: row;
-    gap: 36px;
+  /*background-color: aqua; */
+  display: flex;
+  flex-direction: row;
+  gap: 36px;
 }
 
 .info {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 8px;
-    margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  margin-top: 50px;
 }
 
-
 .bloque-mayor-tres {
-    display: flex;
-    flex-direction: column;
-    border: solid red 8px; /*eliminar despues*/
-    width: 100%;
-    height: 450px;
-    background-color: #e5e7eb;
-    justify-content: center;
-    align-items: center;
-} 
+  display: flex;
+  width: 100%;
+  height: 450px;
+  justify-content: center;
+  align-items: center;
+  background-color: #e5e7eb;
+}
 
 .frase-completa {
-    display: flex;
-    width: 250px;
-    height: 100px;
+  display: flex;
+  width: 600px;
+  height: 450px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 2px solid brown;
+}
+.frase {
+  font-size: 36px;
+  font-style: italic;
+  color: #1f2937;
 }
 
 .autor {
-    align-self: flex-end;
+  font-weight: bolder;
 }
+
 /*
   footer {
     background-color: #1f2937;
   }
 
 */
-
