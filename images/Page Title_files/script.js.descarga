@@ -1,0 +1,4 @@
+let pregunta = prompt("What is the “official” name of JavaScript?");
+if (pregunta == "ECMAScript") {
+  prompt("Right!");
+}
